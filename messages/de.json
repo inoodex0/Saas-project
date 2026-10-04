@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "title": "Zenvika",
+    "description": "Ein modernes Erlebnis, erstellt mit Next.js.",
+    "pricingTitle": "Preise — Zenvika",
+    "pricingDescription": "Einfache, transparente Pläne – von kostenlos bis Enterprise.",
+    "contactTitle": "Kontakt — Zenvika",
+    "contactDescription": "Fragen zu Plänen oder Ihrem Shop? Kontaktieren Sie das Zenvika-Team — Antwort innerhalb von 24 Stunden."
+  },
+  "nav": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "features": "Funktionen",
+    "testimonials": "Testimonials",
+    "contactUs": "Kontakt",
+    "openStore": "Kostenlosen Shop eröffnen",
+    "menuLabel": "Menü",
+    "solutions": {
+      "label": "Lösungen",
+      "inventory": "Bestand",
+      "orders": "Bestellungen",
+      "analytics": "Analysen"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Bringen Sie Ihr Online-Geschäft voran",
+      "subtitle": "Von reibungslosen Zahlungen bis zu solider Sicherheit: Zenvika gibt Ihnen alles, was Sie für den Verkauf über jeden Kanal brauchen – und bringt Sie weiter.",
+      "cta": "Kostenlosen Shop eröffnen",
+      "secondaryCta": "Live-Seite ansehen",
+      "mockTitle": "Alles, was Ihr Shop braucht",
+      "mockChipSync": "Bestand synchronisiert",
+      "mockChipOrder": "Neue Bestellung #1042",
+      "mockRevenueLabel": "Umsatz diese Woche",
+      "eyebrow": "Zenvika Commerce-Engine",
+      "bullets": [
+        "Unbegrenzte Produkte",
+        "7 Sprachen + RTL",
+        "20+ Verkaufskanäle",
+        "Echtzeit-Bestandssync",
+        "0 % Einrichtungsgebühr",
+        "24/7 Händler-Support"
+      ]
+    },
+    "trust": {
+      "headline": "Verbinde deinen Shop mit den größten Handelskanälen",
+      "brands": [
+        {
+          "name": "AuraStyle Paris",
+          "country": "Frankreich"
+        },
+        {
+          "name": "Tokyo Gadgets",
+          "country": "Japan"
+        },
+        {
+          "name": "Dhaka Threads",
+          "country": "Bangladesch"
+        },
+        {
+          "name": "Berlin Living",
+          "country": "Deutschland"
+        },
+        {
+          "name": "Dubai Souq",
+          "country": "VAE"
+        },
+        {
+          "name": "Milano Fashion",
+          "country": "Italien"
+        }
+      ],
+      "stats": [
+        {
+          "value": "10.000+",
+          "label": "Aktive Marken"
+        },
+        {
+          "value": "7",
+          "label": "Bediente Länder"
+        },
+        {
+          "value": "99,99 %",
+          "label": "Checkout-Verfügbarkeit"
+        },
+        {
+          "value": "4,9/5",
+          "label": "Händlerbewertung"
+        }
+      ],
+      "eyebrow": "Weltweit vertraut",
+      "row1Label": "Marktplätze",
+      "row2Label": "Zahlungen & Logistik"
+    }
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Etwas ist schiefgelaufen",
+    "notFound": "Seite nicht gefunden",
+    "goHome": "Zur Startseite",
+    "readMore": "Mehr erfahren"
+  },
+  "footer": {
+    "description": "Die Omnichannel-Commerce-Engine der nächsten Generation für stark wachsende globale Marken. Bestände synchronisieren, Sofortzahlungen akzeptieren und Kunden weltweit begeistern.",
+    "status": "Alle Systeme betriebsbereit",
+    "platform": {
+      "title": "Plattform",
+      "items": [
+        "Omnichannel-Sync",
+        "Globaler Checkout",
+        "Echtzeit-Analysen",
+        "Bestandsautomatisierung",
+        "Preispläne"
+      ]
+    },
+    "solutions": {
+      "title": "Lösungen",
+      "items": [
+        "Direct-to-Consumer",
+        "B2B-Großhandel",
+        "Grenzüberschreitender Handel",
+        "Enterprise-Retail",
+        "Entwickler-API"
+      ]
+    },
+    "company": {
+      "title": "Unternehmen",
+      "items": [
+        "Über uns",
+        "Karriere",
+        "Datenschutz",
+        "Nutzungsbedingungen",
+        "Kontaktsupport"
+      ]
+    },
+    "hiring": "Wir stellen ein",
+    "engine": "Globale Commerce-Engine",
+    "madeWith": "Erstellt mit",
+    "forMerchants": "für moderne Händler",
+    "rights": "Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben",
+    "contact": {
+      "addressLabel": "Adresse",
+      "address": "Level 9, Ghoroya Mor, Pallabi, Mirpur",
+      "phoneLabel": "Telefon",
+      "phone": "+880 1707-384005",
+      "emailLabel": "E-Mail",
+      "email": "support@zenvik.com",
+      "title": "Kontakt"
+    }
+  },
+  "currency": {
+    "label": "Währung",
+    "change": "Währung ändern"
+  },
+  "language": {
+    "label": "Sprache",
+    "change": "Sprache ändern"
+  },
+  "pricing": {
+    "badge": "Einfache, transparente Preise",
+    "title": "Preise, die mit Ihnen wachsen",
+    "subtitle": "Kostenlos starten und bei Bedarf upgraden. Keine versteckten Kosten, jederzeit kündbar.",
+    "monthly": "Monatlich",
+    "yearly": "Jährlich",
+    "save": "20 % sparen",
+    "perMonth": "Monat",
+    "billedMonthly": "monatlich abgerechnet",
+    "billedYearly": "jährlich abgerechnet",
+    "mostPopular": "Am beliebtesten",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "tagline": "Für einzelne Verkäufer, die starten.",
+        "cta": "Kostenlos starten",
+        "features": [
+          "1 Online-Shop",
+          "100 Produkte",
+          "2 % Transaktionsgebühr",
+          "Community-Support",
+          "Basis-Analysen"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "Für wachsende Marken, die überall verkaufen.",
+        "cta": "14 Tage testen",
+        "features": [
+          "5 Online-Shops",
+          "10.000 Produkte",
+          "0 % Plattformgebühr",
+          "Omnichannel-Sync",
+          "Echtzeit-Analysen",
+          "Prioritäts-Support"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "tagline": "Für Teams und Händler mit hohem Volumen.",
+        "cta": "14 Tage testen",
+        "features": [
+          "Unbegrenzte Shops",
+          "Unbegrenzte Produkte",
+          "0 % Plattformgebühr",
+          "Erweiterte Analysen & Rollen",
+          "SSO & Audit-Logs",
+          "Dedizierter Manager"
+        ]
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Individuelle Verträge, SLAs und Onboarding für große Teams.",
+      "cta": "Vertrieb kontaktieren"
+    },
+    "includes": {
+      "title": "In jedem Plan enthalten",
+      "items": [
+        "Sicherer globaler Checkout",
+        "Sofortige Auszahlungen",
+        "99,99 % Verfügbarkeits-SLA",
+        "24/7 Support",
+        "Unbegrenzte Teammitglieder",
+        "Entwickler-API"
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "q": "Kann ich später den Plan wechseln?",
+          "a": "Ja — upgraden oder downgraden Sie jederzeit im Dashboard. Änderungen werden automatisch anteilig abgerechnet."
+        },
+        {
+          "q": "Gibt es eine kostenlose Testphase?",
+          "a": "Jeder kostenpflichtige Plan enthält 14 Tage Testzeitraum. Keine Kreditkarte erforderlich."
+        },
+        {
+          "q": "Fallen Transaktionsgebühren an?",
+          "a": "Starter hat 2 % Transaktionsgebühr. Growth und Scale bieten 0 % Plattformgebühr."
+        },
+        {
+          "q": "Welche Zahlungsmethoden werden unterstützt?",
+          "a": "Karten, Wallets, Banküberweisungen und lokale Methoden in über 130 Währungen."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, Ihren Shop zu starten?",
+      "subtitle": "Schließen Sie sich über 15.000 Händlern an, die weltweit mit Zenvika verkaufen.",
+      "button": "Kostenlosen Shop eröffnen"
+    },
+    "freePeriod": "Für immer",
+    "customPrice": "Individuell",
+    "learnMore": "Mehr erfahren",
+    "offer": {
+      "badge": "Jetzt Sichern",
+      "titleTop": "Unsere Besten Pläne",
+      "titleBottom": "Gratis-Guthaben Für Neue Mitglieder",
+      "description": "Starte heute deinen Shop und sichere dir 10 $ Gratis-Guthaben — ohne Karte. Nutze es für jeden Plan oder Add-on und verkaufe über alle Kanäle.",
+      "bullets": [
+        "14 Tage kostenlos testen",
+        "10 $ Gratis-Guthaben",
+        "Keine Einrichtungsgebühren",
+        "Jederzeit kündbar",
+        "Alle 7 Sprachen + RTL",
+        "24/7 Händler-Support"
+      ],
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden",
+      "amount": "$10 FREE",
+      "cta": "Gratis-Guthaben Sichern"
+    }
+  },
+  "howItWorks": {
+    "badge": "So funktioniert’s",
+    "title": "Global verkaufen in",
+    "titleAccent": "4 einfachen Schritten",
+    "subtitle": "Vom Signup bis zur ersten internationalen Bestellung — der ganze Weg dauert keinen Nachmittag.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Erstelle deinen Shop",
+        "body": "In 60 Sekunden registrieren und einen vollständig lokalisierten Shop starten — ohne Code, ohne Einrichtungsgebühren."
+      },
+      {
+        "step": "02",
+        "title": "Verbinde deine Kanäle",
+        "body": "Marktplätze, Zahlungsanbieter und Logistik über direkte API-Integrationen anbinden."
+      },
+      {
+        "step": "03",
+        "title": "Füge deine Produkte hinzu",
+        "body": "Kataloge importieren — die KI schreibt SEO-Titel, Beschreibungen und Übersetzungen für dich."
+      },
+      {
+        "step": "04",
+        "title": "Verkaufe weltweit",
+        "body": "Live-Devisenkurse, blitzschneller Checkout und kein Overselling in jeder Region."
+      }
+    ]
+  },
+  "mobileApp": {
+    "title": "Eine mobile App für",
+    "titleAccent": "alle Plattformen",
+    "subtitle": "Eine Komplettlösung für Ihren Shop – veröffentlichen Sie sie auf iOS und Android, mit synchronisiertem Katalog, Bestand und Bestellungen.",
+    "footer": "Ihr Shop ist nur einen Touch von einer Mobile-App entfernt – starten Sie hier.",
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "So funktioniert's",
+    "imageAlt": "Zwei Phones mit der Zenvika Shopping-App",
+    "badge": "Mobile App"
+  },
+  "features": {
+    "badge": "Basis-Architektur",
+    "title": "Entwickelt für",
+    "titleAccent": "globale Skalierung",
+    "subtitle": "Alles, was Sie für hochkonvertierende, lokalisierte E-Commerce-Shops auf jedem Kontinent brauchen.",
+    "localization": {
+      "title": "Native Mehrsprachigkeit & bidirektionales RTL",
+      "body": "Sofortige lokale Erlebnisse mit Subpath-Routing, automatischer IP-basierter Spracherkennung und vollständiger RTL-UI-Spiegelung für arabische, hebräische und persische Märkte.",
+      "seo": "Vollständiges hreflang-SEO",
+      "detection": "Geo-IP-Automatikwechsel"
+    },
+    "ai": {
+      "title": "KI-Commerce-Co-Pilot",
+      "body": "Erstellen Sie in Sekunden SEO-optimierte Produkttitel, Beschreibungen und Kategorie-Tags. Übersetzen Sie Kataloge automatisch in über 30 Sprachen mit kontextueller Genauigkeit.",
+      "note": "KI-Generierung aktiv",
+      "speed": "In 0,4s generiert"
+    },
+    "currency": {
+      "title": "Dynamische Multi-Währung & lokale Zahlungswege",
+      "body": "Native Preise in über 135 Währungen mit automatischen Live-Wechselkursen und lokalisierten Checkout-Methoden, darunter Wallets, UPI und Banküberweisungen.",
+      "liveFx": "Live-Wechselkurs-Updates"
+    },
+    "edge": {
+      "title": "Globale Sub-Sekunden-Edge-Infrastruktur",
+      "body": "Weltweit über 320 Edge-Knoten mit automatischer Bestandsreservierung und 99,999%-Uptime-Garantie für null Overselling während Flash-Sales.",
+      "speed": "Globaler TTFB",
+      "uptime": "99,999% SLA-Verfügbarkeit",
+      "latency": "Multi-Region-Sync"
+    }
+  },
+  "contact": {
+    "title": "Lassen Sie Uns Über Ihren Shop Sprechen",
+    "subtitle": "Fragen zu Plänen, Funktionen oder Ihrem Shop? Unser Team hilft gerne — schreiben Sie uns, wir antworten innerhalb von 24 Stunden.",
+    "formTitle": "Senden Sie Uns Eine Nachricht",
+    "formSubtitle": "Füllen Sie das Formular aus und unser Team meldet sich kurz.",
+    "name": "Vollständiger Name",
+    "namePlaceholder": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "you@company.com",
+    "subject": "Betreff",
+    "subjectPlaceholder": "Worum geht es?",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns, wie wir helfen können...",
+    "submit": "Nachricht Senden",
+    "sending": "Wird gesendet...",
+    "successTitle": "Nachricht Gesendet!",
+    "successText": "Danke für Ihre Nachricht. Unser Team antwortet innerhalb von 24 Stunden.",
+    "sendAnother": "Weitere Nachricht Senden",
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Geben Sie eine gültige E-Mail-Adresse ein",
+    "responseLabel": "Antwortzeit",
+    "responseValue": "Innerhalb von 24 Stunden",
+    "hoursLabel": "Support-Zeiten",
+    "hoursValue": "24/7 — immer geöffnet",
+    "responseNote": "Die meisten Fragen beantworten wir deutlich schneller.",
+    "hoursNote": "E-Mail, Chat und Telefon — jeden Tag, jederzeit.",
+    "heroBadge": "Wir antworten innerhalb von 24 Stunden",
+    "visualTitle": "Sprechen Sie Mit Echten Menschen",
+    "visualSubtitle": "Freundlicher Support, ohne Bots — jeden Tag erreichbar."
+  }
+}

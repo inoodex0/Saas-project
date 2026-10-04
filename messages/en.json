@@ -1,0 +1,375 @@
+{
+  "meta": {
+    "title": "Zenvika",
+    "description": "A modern experience built with Next.js.",
+    "pricingTitle": "Pricing — Zenvika",
+    "pricingDescription": "Simple, transparent plans — from free to enterprise, with no hidden fees.",
+    "contactTitle": "Contact Us — Zenvika",
+    "contactDescription": "Questions about plans or your store? Reach the Zenvika team — we reply within 24 hours."
+  },
+  "nav": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "features": "Features",
+    "testimonials": "Testimonials",
+    "contactUs": "Contact Us",
+    "openStore": "Open Free Store",
+    "menuLabel": "Menu",
+    "solutions": {
+      "label": "Solutions",
+      "inventory": "Inventory",
+      "orders": "Orders",
+      "analytics": "Analytics"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Grow your online business with",
+      "subtitle": "From seamless checkout to rock-solid security, Zenvika gives you everything you need to sell across every channel — and reach new heights.",
+      "cta": "Open your free store",
+      "secondaryCta": "View live site",
+      "mockTitle": "Everything your store needs",
+      "mockChipSync": "Inventory synced",
+      "mockChipOrder": "New order #1042",
+      "mockRevenueLabel": "Revenue this week",
+      "eyebrow": "Zenvika commerce engine",
+      "bullets": [
+        "Unlimited products",
+        "7 languages + RTL",
+        "20+ sales channels",
+        "Real-time inventory sync",
+        "0% setup fee",
+        "24/7 merchant support"
+      ]
+    },
+    "trust": {
+      "headline": "Connect your store to the world's biggest commerce channels",
+      "brands": [
+        {
+          "name": "AuraStyle Paris",
+          "country": "France"
+        },
+        {
+          "name": "Tokyo Gadgets",
+          "country": "Japan"
+        },
+        {
+          "name": "Dhaka Threads",
+          "country": "Bangladesh"
+        },
+        {
+          "name": "Berlin Living",
+          "country": "Germany"
+        },
+        {
+          "name": "Dubai Souq",
+          "country": "UAE"
+        },
+        {
+          "name": "Milano Fashion",
+          "country": "Italy"
+        }
+      ],
+      "stats": [
+        {
+          "value": "10,000+",
+          "label": "Active brands"
+        },
+        {
+          "value": "7",
+          "label": "Countries served"
+        },
+        {
+          "value": "99.99%",
+          "label": "Checkout uptime"
+        },
+        {
+          "value": "4.9/5",
+          "label": "Merchant rating"
+        }
+      ],
+      "eyebrow": "Trusted worldwide",
+      "row1Label": "Marketplaces",
+      "row2Label": "Payments & Logistics"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "notFound": "Page not found",
+    "goHome": "Go to homepage",
+    "readMore": "Read more"
+  },
+  "footer": {
+    "description": "The next-generation omnichannel commerce engine engineered for high-growth global brands. Sync inventory, accept instant payments, and delight customers worldwide.",
+    "status": "All Systems Operational",
+    "platform": {
+      "title": "Platform",
+      "items": [
+        "Omnichannel Sync",
+        "Global Checkout",
+        "Real-time Analytics",
+        "Inventory Automation",
+        "Pricing Plans"
+      ]
+    },
+    "solutions": {
+      "title": "Solutions",
+      "items": [
+        "Direct to Consumer",
+        "B2B Wholesale",
+        "Global Cross-Border",
+        "Enterprise Retail",
+        "Developer API"
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "items": [
+        "About Us",
+        "Careers",
+        "Privacy Policy",
+        "Terms of Service",
+        "Contact Support"
+      ]
+    },
+    "hiring": "Hiring",
+    "engine": "Global Commerce Engine",
+    "madeWith": "Made with",
+    "forMerchants": "for modern merchants",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "contact": {
+      "addressLabel": "Address",
+      "address": "Level 9, Ghoroya Mor, Pallabi, Mirpur",
+      "phoneLabel": "Phone",
+      "phone": "+880 1707-384005",
+      "emailLabel": "Email",
+      "email": "support@zenvik.com",
+      "title": "Contact"
+    }
+  },
+  "currency": {
+    "label": "Currency",
+    "change": "Change currency"
+  },
+  "language": {
+    "label": "Language",
+    "change": "Change language"
+  },
+  "pricing": {
+    "badge": "Simple, transparent pricing",
+    "title": "Pricing that grows with you",
+    "subtitle": "Start free, upgrade when you're ready. No hidden fees, cancel anytime.",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save": "Save 20%",
+    "perMonth": "month",
+    "billedMonthly": "billed monthly",
+    "billedYearly": "billed yearly",
+    "mostPopular": "Most popular",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "tagline": "For solo sellers getting started.",
+        "cta": "Start for free",
+        "features": [
+          "1 online store",
+          "100 products",
+          "2% transaction fee",
+          "Community support",
+          "Basic analytics"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "For growing brands selling everywhere.",
+        "cta": "Start 14-day trial",
+        "features": [
+          "5 online stores",
+          "10,000 products",
+          "0% platform fee",
+          "Omnichannel sync",
+          "Real-time analytics",
+          "Priority support"
+        ]
+      },
+      "scale": {
+        "name": "Scale",
+        "tagline": "For high-volume teams and retailers.",
+        "cta": "Start 14-day trial",
+        "features": [
+          "Unlimited stores",
+          "Unlimited products",
+          "0% platform fee",
+          "Advanced analytics & roles",
+          "SSO & audit logs",
+          "Dedicated manager"
+        ]
+      }
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "description": "Custom contracts, SLAs and onboarding for large teams.",
+      "cta": "Contact sales"
+    },
+    "includes": {
+      "title": "Every plan includes",
+      "items": [
+        "Secure global checkout",
+        "Instant payouts",
+        "99.99% uptime SLA",
+        "24/7 support",
+        "Unlimited teammates",
+        "Developer API"
+      ]
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        {
+          "q": "Can I change plans later?",
+          "a": "Yes — upgrade or downgrade anytime from your dashboard. Changes are prorated automatically."
+        },
+        {
+          "q": "Is there a free trial?",
+          "a": "Every paid plan comes with a 14-day free trial. No credit card required to start."
+        },
+        {
+          "q": "Do you charge transaction fees?",
+          "a": "Starter has a 2% transaction fee. Growth and Scale include 0% platform fees — you only pay your payment provider."
+        },
+        {
+          "q": "Which payment methods are supported?",
+          "a": "Cards, wallets, bank transfers and local methods across 130+ currencies via our global checkout."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to launch your store?",
+      "subtitle": "Join 15,000+ merchants selling worldwide with Zenvika.",
+      "button": "Open your free store"
+    },
+    "freePeriod": "Forever",
+    "customPrice": "Custom",
+    "learnMore": "Learn more",
+    "offer": {
+      "badge": "Claim Yours Now",
+      "titleTop": "We Have The Best Plans",
+      "titleBottom": "Free Credit For New Members",
+      "description": "Start your store today and claim $10 in free credit — no card required. Apply it to any plan or add-on and start selling across every channel.",
+      "bullets": [
+        "14-day free trial",
+        "$10 free credit",
+        "No setup fees",
+        "Cancel anytime",
+        "All 7 languages + RTL",
+        "24/7 merchant support"
+      ],
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "amount": "$10 FREE",
+      "cta": "Claim Free Credit"
+    }
+  },
+  "features": {
+    "badge": "Core Architecture",
+    "title": "Engineered for",
+    "titleAccent": "Global Scale",
+    "subtitle": "Everything you need to run high-converting, localized e-commerce storefronts across every continent.",
+    "localization": {
+      "title": "Native Multi-Language & Bi-Directional RTL",
+      "body": "Deliver instant localized experiences with subpath routing, automatic IP-based locale detection, and full right-to-left UI mirroring for Arabic, Hebrew, and Persian markets.",
+      "seo": "Full hreflang SEO",
+      "detection": "Geo-IP auto switch"
+    },
+    "ai": {
+      "title": "AI Commerce Copilot",
+      "body": "Generate SEO-optimized product titles, descriptions, and category tags in seconds. Automatically translate catalogs into 30+ languages with contextual accuracy.",
+      "note": "AI Generation Active",
+      "speed": "Generated in 0.4s"
+    },
+    "currency": {
+      "title": "Dynamic Multi-Currency & Local Rails",
+      "body": "Show native pricing in 135+ currencies with automated live forex rates and localized checkout methods including wallets, UPI, and bank transfers.",
+      "liveFx": "Live FX rate updates"
+    },
+    "edge": {
+      "title": "Sub-Second Global Edge Infrastructure",
+      "body": "Deployed across 320+ edge nodes worldwide with automated inventory locking and 99.999% uptime guarantees to ensure zero overselling during flash sales.",
+      "speed": "Global TTFB",
+      "uptime": "99.999% SLA Uptime",
+      "latency": "Multi-region sync"
+    }
+  },
+  "howItWorks": {
+    "badge": "How it works",
+    "title": "Start selling globally in",
+    "titleAccent": "4 simple steps",
+    "subtitle": "From signup to your first international order — the whole journey takes less than an afternoon.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Create your store",
+        "body": "Sign up in 60 seconds and launch a fully localized storefront — no code, no setup fees."
+      },
+      {
+        "step": "02",
+        "title": "Connect your channels",
+        "body": "Plug into marketplaces, payment gateways and logistics partners through direct API links."
+      },
+      {
+        "step": "03",
+        "title": "Add your products",
+        "body": "Bulk-import catalogs in one go — AI writes SEO titles, descriptions and translations for you."
+      },
+      {
+        "step": "04",
+        "title": "Sell worldwide",
+        "body": "Live forex pricing, edge-fast checkout and zero-oversell inventory across every region."
+      }
+    ]
+  },
+  "mobileApp": {
+    "title": "One mobile app for",
+    "titleAccent": "every platform",
+    "subtitle": "A one-stop mobile app solution for your storefront — publish to iOS and Android with your catalog, inventory and orders fully synced.",
+    "footer": "You're one touch away from a mobile app for your store — start right here.",
+    "ctaPrimary": "Start free",
+    "ctaSecondary": "See how it works",
+    "imageAlt": "Two phones showing the Zenvika shopping app",
+    "badge": "Mobile app"
+  },
+  "contact": {
+    "title": "Let's Talk About Your Store",
+    "subtitle": "Questions about plans, features or your store? Our team is here to help — drop us a message and we will get back to you within 24 hours.",
+    "formTitle": "Send Us A Message",
+    "formSubtitle": "Fill in the form and our team will reply shortly.",
+    "name": "Full Name",
+    "namePlaceholder": "Your name",
+    "email": "Email Address",
+    "emailPlaceholder": "you@company.com",
+    "subject": "Subject",
+    "subjectPlaceholder": "What is this about?",
+    "message": "Message",
+    "messagePlaceholder": "Tell us how we can help...",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "successTitle": "Message Sent!",
+    "successText": "Thanks for reaching out. Our team will reply within 24 hours.",
+    "sendAnother": "Send Another Message",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "responseLabel": "Response Time",
+    "responseValue": "Within 24 hours",
+    "hoursLabel": "Support Hours",
+    "hoursValue": "24/7 — always open",
+    "responseNote": "Most questions get an answer much sooner.",
+    "hoursNote": "Email, chat and phone — any day, any time.",
+    "heroBadge": "We reply within 24 hours",
+    "visualTitle": "Talk To A Real Human",
+    "visualSubtitle": "Friendly support, no bots — reach us any day of the week."
+  }
+}
