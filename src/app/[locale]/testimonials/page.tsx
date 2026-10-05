@@ -1,3 +1,4 @@
+import Reveal from "@/components/Reveal";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import { isLocale, routing } from "@/i18n/routing";
 import { Package, Scissors, Star } from "lucide-react";
@@ -107,6 +108,7 @@ export default async function TestimonialsPage({ params }: Params) {
         <MiniTag tint="#dcefe6" className="end-[8%] top-24 rotate-[8deg]" />
 
         <div className="relative z-10 mx-auto max-w-3xl px-6 pb-20 pt-14 text-center sm:pb-24 sm:pt-20 lg:pt-24">
+          <Reveal variant="rise" delay={40}>
           {/* eyebrow as a shipping-label chip */}
           <div className="mb-8 flex justify-center">
             <div className="relative inline-flex items-stretch overflow-hidden rounded-md border border-slate-900/15 bg-[#fffdf7] shadow-[0_6px_16px_rgba(60,40,10,0.12)]">
@@ -147,7 +149,8 @@ export default async function TestimonialsPage({ params }: Params) {
                 aria-hidden="true"
                 className="absolute -end-1 -top-1 -z-10 h-5 w-5 rotate-12 rounded-sm border-2 border-dashed border-orange-500/70"
               />
-          
+              <span className="relative">{t("titleAccent")}
+              </span>
             </span>
 
             {/* delivery route squiggle */}
@@ -175,6 +178,7 @@ export default async function TestimonialsPage({ params }: Params) {
           <p className="mx-auto mt-6 max-w-xl text-balance text-base leading-7 text-slate-600 sm:text-lg sm:leading-8">
             {t("subtitle")}
           </p>
+          </Reveal>
         </div>
 
         {/* tear-off perforation into the wall of tags */}

@@ -307,6 +307,7 @@ export default async function TestimonialsSection() {
                     </div>
                   </div>
                 </figure>
+                </Reveal>
               </div>
             );
           })}
