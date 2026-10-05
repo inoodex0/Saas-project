@@ -304,6 +304,34 @@
       "speed": "Global TTFB",
       "uptime": "99.999% SLA Uptime",
       "latency": "Multi-region sync"
+    },
+    "gallery": {
+      "badge": "Theme Gallery",
+      "title": "Choose Your",
+      "titleAccent": "Store Theme",
+      "subtitle": "Professionally crafted, conversion-ready storefront themes — filter by industry, preview the features, and launch your live demo in one click.",
+      "liveDemo": "Live Demo",
+      "categories": {
+        "all": "All",
+        "organic": "Organic",
+        "cosmetic": "Cosmetic",
+        "furniture": "Furniture",
+        "fashion": "Fashion",
+        "medical": "Medical",
+        "digital": "Digital",
+        "sportswear": "Sportswear",
+        "jewelry": "Jewelry",
+        "marketplace": "Marketplace",
+        "autopart": "Autopart",
+        "toy": "Toy",
+        "tools": "Tools",
+        "book": "Book",
+        "houseware": "Houseware",
+        "android": "Android app",
+        "ios": "Ios app",
+        "ecommerce": "Ecommerce"
+      },
+      "categoriesLabel": "Categories"
     }
   },
   "howItWorks": {

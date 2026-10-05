@@ -51,6 +51,25 @@ export default async function FeaturesShowcase() {
       />
 
       <div className="mx-auto w-full max-w-7xl px-6 py-14 lg:px-8 lg:py-16">
+        <div className="mx-auto mb-10 max-w-3xl text-center">
+          <span className="inline-flex items-center gap-2 rounded-full border border-teal-200/80 bg-white px-4 py-1.5 text-xs font-bold text-teal-700 shadow-[0_8px_24px_-12px_rgba(13,148,136,0.6)]">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-teal-400 opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-teal-500" />
+            </span>
+            {t("badge")}
+          </span>
+          <h2 className="mt-5 text-balance text-3xl font-black leading-[1.08] tracking-[-0.03em] text-slate-900 sm:text-4xl lg:text-5xl">
+            {t("title")}{" "}
+            <span className="bg-gradient-to-r from-teal-600 to-emerald-500 bg-clip-text text-transparent">
+              {t("titleAccent")}
+            </span>
+          </h2>
+          <p className="mx-auto mt-4 max-w-xl text-balance text-base leading-7 text-slate-600">
+            {t("subtitle")}
+          </p>
+        </div>
+
         <div className="grid gap-6 sm:grid-cols-2 lg:gap-8">
           {CARDS.map(({ key, num, grad, glow, icon: Icon, chips }) => (
             <article

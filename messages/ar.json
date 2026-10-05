@@ -342,6 +342,34 @@
       "speed": "زمن استجابة TTFB عالمي",
       "uptime": "وقت تشغيل 99.999%",
       "latency": "مزامنة متعددة المناطق"
+    },
+    "gallery": {
+      "badge": "معرض القوالب",
+      "title": "اختر",
+      "titleAccent": "قالب متجرك",
+      "subtitle": "قوالب متاجر احترافية جاهزة للتحويل — صف حسب الصناعة، استعرض الميزات، وشغّل العرض التوضيحي مباشرة بنقرة واحدة.",
+      "liveDemo": "عرض مباشر",
+      "categories": {
+        "all": "الكل",
+        "organic": "عضوي",
+        "cosmetic": "تجميل",
+        "furniture": "أثاث",
+        "fashion": "أزياء",
+        "medical": "طبي",
+        "digital": "رقمي",
+        "sportswear": "رياضة",
+        "jewelry": "مجوهرات",
+        "marketplace": "سوق",
+        "autopart": "قطع غيار",
+        "toy": "ألعاب",
+        "tools": "أدوات",
+        "book": "كتب",
+        "houseware": "أدوات منزلية",
+        "android": "تطبيق أندرويد",
+        "ios": "تطبيق iOS",
+        "ecommerce": "التجارة الإلكترونية"
+      },
+      "categoriesLabel": "التصنيفات"
     }
   },
   "contact": {

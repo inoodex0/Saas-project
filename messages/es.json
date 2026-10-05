@@ -342,6 +342,34 @@
       "speed": "TTFB global",
       "uptime": "Uptime SLA 99,999%",
       "latency": "Sincronización multirregión"
+    },
+    "gallery": {
+      "badge": "Galería de temas",
+      "title": "Elige el",
+      "titleAccent": "tema de tu tienda",
+      "subtitle": "Temas de tienda profesionales y listos para convertir: filtra por sector, revisa las funciones y lanza la demo en un clic.",
+      "liveDemo": "Demo en vivo",
+      "categories": {
+        "all": "Todo",
+        "organic": "Orgánico",
+        "cosmetic": "Cosmética",
+        "furniture": "Muebles",
+        "fashion": "Moda",
+        "medical": "Médico",
+        "digital": "Digital",
+        "sportswear": "Deportivo",
+        "jewelry": "Joyería",
+        "marketplace": "Marketplace",
+        "autopart": "Autopartes",
+        "toy": "Juguetes",
+        "tools": "Herramientas",
+        "book": "Libros",
+        "houseware": "Hogar",
+        "android": "App Android",
+        "ios": "App iOS",
+        "ecommerce": "Ecommerce"
+      },
+      "categoriesLabel": "Categorías"
     }
   },
   "contact": {

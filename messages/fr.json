@@ -342,6 +342,34 @@
       "speed": "TTFB mondial",
       "uptime": "Disponibilité SLA 99,999 %",
       "latency": "Synchronisation multi-régions"
+    },
+    "gallery": {
+      "badge": "Galerie de thèmes",
+      "title": "Choisissez le",
+      "titleAccent": "thème de votre boutique",
+      "subtitle": "Des thèmes de boutique professionnels, prêts à convertir — filtrez par secteur, consultez les fonctionnalités et lancez votre démo en un clic.",
+      "liveDemo": "Démo en direct",
+      "categories": {
+        "all": "Tout",
+        "organic": "Bio",
+        "cosmetic": "Cosmétique",
+        "furniture": "Meubles",
+        "fashion": "Mode",
+        "medical": "Médical",
+        "digital": "Numérique",
+        "sportswear": "Sportswear",
+        "jewelry": "Bijoux",
+        "marketplace": "Marketplace",
+        "autopart": "Auto",
+        "toy": "Jouets",
+        "tools": "Outils",
+        "book": "Livres",
+        "houseware": "Maison",
+        "android": "App Android",
+        "ios": "App iOS",
+        "ecommerce": "Ecommerce"
+      },
+      "categoriesLabel": "Catégories"
     }
   },
   "contact": {
