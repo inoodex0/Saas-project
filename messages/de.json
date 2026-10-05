@@ -7,7 +7,9 @@
     "contactTitle": "Kontakt — Zenvika",
     "contactDescription": "Fragen zu Plänen oder Ihrem Shop? Kontaktieren Sie das Zenvika-Team — Antwort innerhalb von 24 Stunden.",
     "featuresTitle": "Funktionen — Zenvika",
-    "featuresDescription": "Entdecke alle Zenvika-Funktionen: Lokalisierung & RTL, KI-Texte, über 135 Währungen und globale Edge-Infrastruktur."
+    "featuresDescription": "Entdecke alle Zenvika-Funktionen: Lokalisierung & RTL, KI-Texte, über 135 Währungen und globale Edge-Infrastruktur.",
+    "testimonialsTitle": "Testimonials — Zenvika",
+    "testimonialsDescription": "Erfahre, warum tausende Händler Zenvika mit 4,9/5 bewerten — echte Bewertungen von echten Shop-Betreibern."
   },
   "nav": {
     "home": "Startseite",
@@ -401,5 +403,34 @@
     "heroBadge": "Wir antworten innerhalb von 24 Stunden",
     "visualTitle": "Sprechen Sie Mit Echten Menschen",
     "visualSubtitle": "Freundlicher Support, ohne Bots — jeden Tag erreichbar."
+  },
+  "testimonials": {
+    "title": "Echte Shops,",
+    "titleAccent": "Echte Ergebnisse",
+    "subtitle": "Tausende Händler betreiben ihre Shops täglich mit Zenvika. Das sagen einige von ihnen.",
+    "verified": "Verifizierter Händler",
+    "stats": {
+      "ratingValue": "4,9/5",
+      "ratingLabel": "Durchschnittliche Bewertung",
+      "reviewsValue": "120+",
+      "reviewsLabel": "Verifizierte Bewertungen",
+      "recommendValue": "98%",
+      "recommendLabel": "Empfehlen Zenvika"
+    },
+    "quotes": [
+      "Der Umstieg auf Zenvika dauerte ein Wochenende. Unsere Conversion-Rate stieg im ersten Monat um 32 % — der Checkout ist überragend.",
+      "Multi-Währung und RTL-Support haben uns den Golfmarkt erschlossen. Auf Arabisch zu verkaufen, fühlte sich vom ersten Tag an nativ an.",
+      "Ich betreibe sechs Shops aus einem Dashboard. Die Bestandsynchronisation ist sofort und Support antwortet in Minuten, nicht Tagen.",
+      "Der KI-Produkttext hat bessere Beschreibungen geschrieben als unsere alte Agentur — und ist im Plan enthalten.",
+      "Wir haben 4.000 Produkte ohne eine einzige kaputte URL migriert. Der SEO-Traffic blieb während der gesamten Migration stabil.",
+      "Die Theme-Galerie hat das Redesign Spaß gemacht. Neues Look am Nachmittag gestartet, und die Verkäufe folgten."
+    ],
+    "cta": {
+      "title": "Bereit, deine eigene Erfolgsgeschichte zu schreiben?",
+      "text": "Schließ dich tausenden Händlern an, die mit Zenvika über alle Kanäle verkaufen.",
+      "primary": "Preise ansehen",
+      "secondary": "Vertrieb kontaktieren"
+    },
+    "eyebrow": "Was Händler sagen"
   }
 }

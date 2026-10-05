@@ -43,7 +43,7 @@ export default async function Hero() {
 
       <div className="mx-auto w-full max-w-7xl px-6 pb-10 pt-14 sm:pt-20 lg:px-8 lg:pb-0">
         <div className="relative z-10 grid items-center gap-12 lg:grid-cols-2 lg:gap-6">
-          <div className="flex flex-col items-center pt-4 text-center lg:items-start lg:pt-10 lg:text-start">
+          <div className="order-2 flex flex-col items-center pt-4 text-center lg:order-1 lg:items-start lg:pt-10 lg:text-start">
             <div className="mb-6 flex items-center gap-3">
               <span className="h-1.5 w-12 rounded-full bg-gradient-to-r from-teal-600 to-green-600" />
               <span className="text-sm font-bold tracking-wide text-slate-500">
@@ -122,7 +122,7 @@ export default async function Hero() {
             </div>
           </div>
 
-          <div className="relative flex items-end justify-center lg:justify-end">
+          <div className="relative order-1 flex items-end justify-center lg:order-2 lg:justify-end">
             <div className="relative lg:-mb-10 xl:-mb-14">
               <div
                 aria-hidden="true"

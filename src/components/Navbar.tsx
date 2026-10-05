@@ -156,9 +156,9 @@ export default function Navbar() {
       <Link href="/features" className={linkClass} onClick={closeAll}>
         {t('features')}
       </Link>
-      <a href="#testimonials" className={linkClass}>
+      <Link href="/testimonials" className={linkClass} onClick={closeAll}>
         {t('testimonials')}
-      </a>
+      </Link>
     </>
   );
 

@@ -20,6 +20,7 @@ export default async function HomePage({ params }: Params) {
       <FeaturesBento/>
       <HowItWorks/>
       <MobileAppSection/>
+      
     </main>
   );
 }

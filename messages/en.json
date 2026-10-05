@@ -7,7 +7,9 @@
     "contactTitle": "Contact Us — Zenvika",
     "contactDescription": "Questions about plans or your store? Reach the Zenvika team — we reply within 24 hours.",
     "featuresTitle": "Features — Zenvika",
-    "featuresDescription": "Explore every Zenvika feature — localization & RTL, AI product copy, 135+ currencies, and global edge infrastructure."
+    "featuresDescription": "Explore every Zenvika feature — localization & RTL, AI product copy, 135+ currencies, and global edge infrastructure.",
+    "testimonialsTitle": "Testimonials — Zenvika",
+    "testimonialsDescription": "See why thousands of merchants rate Zenvika 4.9/5 — real reviews from real store owners."
   },
   "nav": {
     "home": "Home",
@@ -401,5 +403,34 @@
     "heroBadge": "We reply within 24 hours",
     "visualTitle": "Talk To A Real Human",
     "visualSubtitle": "Friendly support, no bots — reach us any day of the week."
+  },
+  "testimonials": {
+    "title": "Real Stores,",
+    "titleAccent": "Real Results",
+    "subtitle": "Thousands of merchants run their stores on Zenvika every day. Here is what a few of them have to say.",
+    "verified": "Verified merchant",
+    "stats": {
+      "ratingValue": "4.9/5",
+      "ratingLabel": "Average rating",
+      "reviewsValue": "120+",
+      "reviewsLabel": "Verified reviews",
+      "recommendValue": "98%",
+      "recommendLabel": "Recommend Zenvika"
+    },
+    "quotes": [
+      "Switching to Zenvika took us a weekend. Our conversion rate jumped 32% in the first month — the checkout just flies.",
+      "Multi-currency and RTL support unlocked the Gulf market for us. Selling in Arabic felt native from day one.",
+      "I run six stores from one dashboard. Inventory sync is instant and support answers in minutes, not days.",
+      "AI product copy wrote better descriptions than our old agency — and it is included in the plan.",
+      "We migrated 4,000 products without a single broken URL. SEO traffic held steady through the whole move.",
+      "The theme gallery made redesigning fun. We launched a new look in one afternoon and sales followed."
+    ],
+    "cta": {
+      "title": "Ready to write your own success story?",
+      "text": "Join thousands of merchants selling across every channel with Zenvika.",
+      "primary": "View pricing",
+      "secondary": "Talk to sales"
+    },
+    "eyebrow": "What merchants say"
   }
 }
