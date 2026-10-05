@@ -9,7 +9,15 @@
     "featuresTitle": "Funciones — Zenvika",
     "featuresDescription": "Explora todas las funciones de Zenvika: localización y RTL, textos con IA, más de 135 monedas e infraestructura edge global.",
     "testimonialsTitle": "Testimonios — Zenvika",
-    "testimonialsDescription": "Descubre por qué miles de comerciantes califican a Zenvika con 4,9/5 — reseñas reales de dueños de tiendas reales."
+    "testimonialsDescription": "Descubre por qué miles de comerciantes califican a Zenvika con 4,9/5 — reseñas reales de dueños de tiendas reales.",
+    "openStoreTitle": "Abre tu tienda gratis | Zenvika",
+    "openStoreDescription": "Introduce tu número de teléfono y nuestro equipo te ayudará a lanzar tu tienda online gratis, sin costes de configuración.",
+    "solutionsInventoryTitle": "Gestión de inventario | Zenvika",
+    "solutionsInventoryDescription": "Seguimiento de stock en tiempo real, alertas de stock bajo y soporte multi-almacén con Zenvika.",
+    "solutionsOrdersTitle": "Gestión de pedidos | Zenvika",
+    "solutionsOrdersDescription": "Procesa, rastrea y prepara pedidos desde un panel, con facturas automáticas y seguimiento en vivo.",
+    "solutionsAnalyticsTitle": "Analítica de ventas | Zenvika",
+    "solutionsAnalyticsDescription": "Decide con paneles en vivo, informes de cohortes y embudos de conversión."
   },
   "nav": {
     "home": "Inicio",
@@ -24,6 +32,11 @@
       "inventory": "Inventario",
       "orders": "Pedidos",
       "analytics": "Analíticas"
+    },
+    "solutionsCaptions": {
+      "inventory": "Stock en tiempo real",
+      "orders": "Del checkout a la puerta",
+      "analytics": "Paneles que deciden"
     }
   },
   "home": {
@@ -432,5 +445,61 @@
       "secondary": "Hablar con ventas"
     },
     "eyebrow": "Lo que dicen los comerciantes"
+  },
+  "openStore": {
+    "title": "Comienza con Zenvika",
+    "phoneLabel": "Número de teléfono",
+    "phonePlaceholder": "Tu número de teléfono",
+    "cta": "Comenzar",
+    "invalid": "Introduce un número de teléfono válido",
+    "successTitle": "¡Ya estás en la lista!",
+    "successNote": "Te contactaremos pronto para ayudarte a abrir tu tienda.",
+    "agreed": "Al continuar, aceptas nuestros",
+    "terms": "Términos y condiciones",
+    "and": "y",
+    "privacy": "Política de privacidad"
+  },
+  "solutions": {
+    "eyebrow": "Soluciones",
+    "ctaTitle": "Lanza tu tienda gratis hoy",
+    "ctaPrimary": "Abrir tienda gratis",
+    "ctaSecondary": "Ver planes",
+    "inventory": {
+      "title": "Inventario inteligente",
+      "subtitle": "Sincroniza el stock en tiempo real en cada canal — nunca vendas de más, nunca te quedes sin stock.",
+      "bullets": [
+        "Niveles de stock en tiempo real en todos los canales",
+        "Alertas de stock bajo antes de agotar los más vendidos",
+        "Importación/exportación masiva con CSV y escáner de códigos",
+        "Soporte multi-almacén y variantes incluido"
+      ],
+      "chipValue": "12,480",
+      "chipText": "SKUs sincronizados en vivo"
+    },
+    "orders": {
+      "title": "Pedidos en piloto automático",
+      "subtitle": "Del checkout a la puerta: procesa, rastrea y prepara pedidos desde un solo panel.",
+      "bullets": [
+        "Un panel para pedidos web, marketplaces y tienda",
+        "Facturas, albaranes y etiquetas de envío automáticos",
+        "Seguimiento en vivo para ti y tus clientes",
+        "Reglas de enrutamiento inteligente sin errores"
+      ],
+      "chipValue": "1,204",
+      "chipText": "Pedidos enviados hoy"
+    },
+    "analytics": {
+      "title": "Analítica que decide por ti",
+      "subtitle": "Qué se vende, quién compra y dónde crecer — paneles hechos para actuar, no para hojas de cálculo.",
+      "bullets": [
+        "Paneles de ventas, ingresos y beneficios en vivo",
+        "Informes de cohorte y retención para ventas recurrentes",
+        "Embudos de tráfico y conversión por canal",
+        "Informes exportables por correo, en automático"
+      ],
+      "chipValue": "+38%",
+      "chipText": "Crecimiento de ingresos"
+    },
+    "showcaseTitle": "Tiendas increíbles creadas con Zenvika"
   }
 }

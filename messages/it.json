@@ -9,7 +9,15 @@
     "featuresTitle": "Funzionalità — Zenvika",
     "featuresDescription": "Esplora tutte le funzionalità di Zenvika: localizzazione e RTL, testi IA, oltre 135 valute e infrastruttura edge globale.",
     "testimonialsTitle": "Testimonianze — Zenvika",
-    "testimonialsDescription": "Scopri perché migliaia di commercianti votano Zenvika 4,9/5 — recensioni reali di veri proprietari di negozi."
+    "testimonialsDescription": "Scopri perché migliaia di commercianti votano Zenvika 4,9/5 — recensioni reali di veri proprietari di negozi.",
+    "openStoreTitle": "Apri il tuo negozio gratis | Zenvika",
+    "openStoreDescription": "Inserisci il tuo numero di telefono e il nostro team ti aiuterà a lanciare il tuo negozio online gratis, senza costi di configurazione.",
+    "solutionsInventoryTitle": "Gestione inventario | Zenvika",
+    "solutionsInventoryDescription": "Monitoraggio scorte in tempo reale, avvisi di scorta bassa e supporto multi-magazzino con Zenvika.",
+    "solutionsOrdersTitle": "Gestione ordini | Zenvika",
+    "solutionsOrdersDescription": "Elabora e traccia gli ordini da un unico pannello, con fatture automatiche e tracking in tempo reale.",
+    "solutionsAnalyticsTitle": "Analisi vendite | Zenvika",
+    "solutionsAnalyticsDescription": "Decidi con dashboard in tempo reale, report di coorte e funnel di conversione."
   },
   "nav": {
     "home": "Home",
@@ -24,6 +32,11 @@
       "inventory": "Inventario",
       "orders": "Ordini",
       "analytics": "Analisi"
+    },
+    "solutionsCaptions": {
+      "inventory": "Scorte in tempo reale",
+      "orders": "Dal checkout alla consegna",
+      "analytics": "Dashboard che decidono"
     }
   },
   "home": {
@@ -432,5 +445,61 @@
       "secondary": "Parla con le vendite"
     },
     "eyebrow": "Dicono i commercianti"
+  },
+  "openStore": {
+    "title": "Inizia con Zenvika",
+    "phoneLabel": "Numero di telefono",
+    "phonePlaceholder": "Il tuo numero di telefono",
+    "cta": "Inizia",
+    "invalid": "Inserisci un numero di telefono valido",
+    "successTitle": "Sei in lista!",
+    "successNote": "Ti contatteremo presto per aiutarti ad aprire il tuo negozio.",
+    "agreed": "Continuando, accetti i nostri",
+    "terms": "Termini e condizioni",
+    "and": "e",
+    "privacy": "Informativa sulla privacy"
+  },
+  "solutions": {
+    "eyebrow": "Soluzioni",
+    "ctaTitle": "Apri il tuo negozio gratis oggi",
+    "ctaPrimary": "Apri negozio gratis",
+    "ctaSecondary": "Vedi i piani",
+    "inventory": {
+      "title": "Inventario intelligente",
+      "subtitle": "Sincronizza le scorte in tempo reale su ogni canale — mai sold-out, mai vendite eccessive.",
+      "bullets": [
+        "Livelli di scorta in tempo reale su tutti i canali",
+        "Avvisi di scorta bassa prima del sold-out dei best seller",
+        "Import/export di massa con CSV e scanner codici a barre",
+        "Supporto multi-magazzino e varianti incluso"
+      ],
+      "chipValue": "12,480",
+      "chipText": "SKU sincronizzati in tempo reale"
+    },
+    "orders": {
+      "title": "Ordini in pilota automatico",
+      "subtitle": "Dal checkout alla consegna: elabora, traccia e prepara gli ordini da un unico pannello.",
+      "bullets": [
+        "Un pannello per ordini web, marketplace e negozio",
+        "Fatture, distinte di consegna ed etichette di spedizione automatiche",
+        "Tracking in tempo reale per te e i tuoi clienti",
+        "Regole di instradamento intelligenti, senza errori"
+      ],
+      "chipValue": "1,204",
+      "chipText": "Ordini spediti oggi"
+    },
+    "analytics": {
+      "title": "Analisi che decidono per te",
+      "subtitle": "Cosa si vende, chi compra e dove crescere — dashboard pensate per l’azione, non per i fogli di calcolo.",
+      "bullets": [
+        "Dashboard di vendite, ricavi e profitti in tempo reale",
+        "Report di coorte e retention per gli acquisti ricorrenti",
+        "Funnel di traffico e conversione per canale",
+        "Report esportabili in casella, in automatico"
+      ],
+      "chipValue": "+38%",
+      "chipText": "Crescita dei ricavi"
+    },
+    "showcaseTitle": "Negozi bellissimi creati con Zenvika"
   }
 }

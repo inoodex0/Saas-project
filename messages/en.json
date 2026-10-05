@@ -9,7 +9,15 @@
     "featuresTitle": "Features — Zenvika",
     "featuresDescription": "Explore every Zenvika feature — localization & RTL, AI product copy, 135+ currencies, and global edge infrastructure.",
     "testimonialsTitle": "Testimonials — Zenvika",
-    "testimonialsDescription": "See why thousands of merchants rate Zenvika 4.9/5 — real reviews from real store owners."
+    "testimonialsDescription": "See why thousands of merchants rate Zenvika 4.9/5 — real reviews from real store owners.",
+    "openStoreTitle": "Open Your Free Store | Zenvika",
+    "openStoreDescription": "Enter your phone number and our team will help you launch your online store for free — no setup fees.",
+    "solutionsInventoryTitle": "Inventory Management | Zenvika",
+    "solutionsInventoryDescription": "Real-time stock tracking, low-stock alerts and multi-warehouse support with Zenvika smart inventory.",
+    "solutionsOrdersTitle": "Order Management | Zenvika",
+    "solutionsOrdersDescription": "Process, track and fulfil orders from one board with automatic invoices and live shipping updates.",
+    "solutionsAnalyticsTitle": "Sales Analytics | Zenvika",
+    "solutionsAnalyticsDescription": "Decide with live dashboards, cohort reports and conversion funnels built for action."
   },
   "nav": {
     "home": "Home",
@@ -24,6 +32,11 @@
       "inventory": "Inventory",
       "orders": "Orders",
       "analytics": "Analytics"
+    },
+    "solutionsCaptions": {
+      "inventory": "Stock levels in real time",
+      "orders": "From checkout to doorstep",
+      "analytics": "Dashboards that decide"
     }
   },
   "home": {
@@ -432,5 +445,61 @@
       "secondary": "Talk to sales"
     },
     "eyebrow": "What merchants say"
+  },
+  "openStore": {
+    "title": "Get Started With Zenvika",
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "Your phone number",
+    "cta": "Get Started",
+    "invalid": "Please enter a valid phone number",
+    "successTitle": "You're on the list!",
+    "successNote": "We'll reach out shortly to help you open your store.",
+    "agreed": "By Continuing, you agree to our",
+    "terms": "Terms & Condition",
+    "and": "and",
+    "privacy": "Privacy Policy"
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "ctaTitle": "Launch your free store today",
+    "ctaPrimary": "Open your free store",
+    "ctaSecondary": "See pricing plans",
+    "inventory": {
+      "title": "Smart Inventory Management",
+      "subtitle": "Track stock across every channel in real time — never oversell, never run out.",
+      "bullets": [
+        "Real-time stock levels synced across every sales channel",
+        "Low-stock alerts before bestsellers run out",
+        "Bulk import/export with CSV & barcode scanning",
+        "Multi-warehouse and variant support built in"
+      ],
+      "chipValue": "12,480",
+      "chipText": "SKUs synced live"
+    },
+    "orders": {
+      "title": "Orders on Autopilot",
+      "subtitle": "From checkout to doorstep — process, track and fulfil orders from one board.",
+      "bullets": [
+        "One board for web, marketplace and in-store orders",
+        "Automatic invoices, packing slips and shipping labels",
+        "Live tracking updates for you and your customers",
+        "Smart routing rules that skip fulfilment errors"
+      ],
+      "chipValue": "1,204",
+      "chipText": "Orders shipped today"
+    },
+    "analytics": {
+      "title": "Analytics That Decide For You",
+      "subtitle": "See what sells, who buys and where you grow — dashboards built for action, not spreadsheets.",
+      "bullets": [
+        "Live sales, revenue and profit dashboards",
+        "Cohort and retention reports for repeat sales",
+        "Traffic and conversion funnels per channel",
+        "Exportable reports on autopilot, to your inbox"
+      ],
+      "chipValue": "+38%",
+      "chipText": "Revenue growth"
+    },
+    "showcaseTitle": "Beautiful stores built with Zenvika"
   }
 }

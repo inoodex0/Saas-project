@@ -9,7 +9,15 @@
     "featuresTitle": "Funktionen — Zenvika",
     "featuresDescription": "Entdecke alle Zenvika-Funktionen: Lokalisierung & RTL, KI-Texte, über 135 Währungen und globale Edge-Infrastruktur.",
     "testimonialsTitle": "Testimonials — Zenvika",
-    "testimonialsDescription": "Erfahre, warum tausende Händler Zenvika mit 4,9/5 bewerten — echte Bewertungen von echten Shop-Betreibern."
+    "testimonialsDescription": "Erfahre, warum tausende Händler Zenvika mit 4,9/5 bewerten — echte Bewertungen von echten Shop-Betreibern.",
+    "openStoreTitle": "Eröffne deinen kostenlosen Shop | Zenvika",
+    "openStoreDescription": "Gib deine Telefonnummer ein und unser Team hilft dir, deinen Online-Shop kostenlos zu starten — ohne Einrichtungsgebühren.",
+    "solutionsInventoryTitle": "Inventarverwaltung | Zenvika",
+    "solutionsInventoryDescription": "Echtzeit-Bestandsverfolgung, Niedrigbestand-Warnungen und Multi-Lager-Support mit Zenvika.",
+    "solutionsOrdersTitle": "Bestellmanagement | Zenvika",
+    "solutionsOrdersDescription": "Bestellungen zentral bearbeiten und verfolgen — mit automatischen Rechnungen und Live-Tracking.",
+    "solutionsAnalyticsTitle": "Sales-Analysen | Zenvika",
+    "solutionsAnalyticsDescription": "Entscheide mit Live-Dashboards, Kohortenberichten und Conversion-Funnels."
   },
   "nav": {
     "home": "Startseite",
@@ -24,6 +32,11 @@
       "inventory": "Bestand",
       "orders": "Bestellungen",
       "analytics": "Analysen"
+    },
+    "solutionsCaptions": {
+      "inventory": "Bestände in Echtzeit",
+      "orders": "Vom Checkout zur Haustür",
+      "analytics": "Dashboards, die entscheiden"
     }
   },
   "home": {
@@ -432,5 +445,61 @@
       "secondary": "Vertrieb kontaktieren"
     },
     "eyebrow": "Was Händler sagen"
+  },
+  "openStore": {
+    "title": "Starte mit Zenvika",
+    "phoneLabel": "Telefonnummer",
+    "phonePlaceholder": "Deine Telefonnummer",
+    "cta": "Jetzt starten",
+    "invalid": "Bitte gib eine gültige Telefonnummer ein",
+    "successTitle": "Du bist dabei!",
+    "successNote": "Wir melden uns bald, um dir beim Eröffnen deines Shops zu helfen.",
+    "agreed": "Wenn du fortfährst, stimmst du unseren",
+    "terms": "AGB",
+    "and": "und",
+    "privacy": "Datenschutzrichtlinie"
+  },
+  "solutions": {
+    "eyebrow": "Lösungen",
+    "ctaTitle": "Eröffne deinen kostenlosen Shop noch heute",
+    "ctaPrimary": "Kostenlosen Shop eröffnen",
+    "ctaSecondary": "Preise ansehen",
+    "inventory": {
+      "title": "Intelligentes Inventar",
+      "subtitle": "Bestände kanalübergreifend in Echtzeit syncen — nie Überverkäufe, nie Ausverkauft.",
+      "bullets": [
+        "Bestandsstände in Echtzeit über alle Vertriebskanäle",
+        "Niedrigbestand-Warnungen vor ausverkauften Bestsellern",
+        "Mass-Import/-Export mit CSV und Barcode-Scanner",
+        "Multi-Lager- und Varianten-Support inklusive"
+      ],
+      "chipValue": "12,480",
+      "chipText": "SKUs live synchronisiert"
+    },
+    "orders": {
+      "title": "Bestellungen auf Autopilot",
+      "subtitle": "Vom Checkout zur Haustür: Bestellungen zentral bearbeiten, verfolgen und versenden.",
+      "bullets": [
+        "Ein Board für Web-, Marketplace- und Ladenbestellungen",
+        "Automatische Rechnungen, Lieferscheine und Versandetiketten",
+        "Live-Tracking für dich und deine Kunden",
+        "Intelligente Routingsregeln gegen Fulfillment-Fehler"
+      ],
+      "chipValue": "1,204",
+      "chipText": "Versandte Bestellungen heute"
+    },
+    "analytics": {
+      "title": "Analysen, die für dich entscheiden",
+      "subtitle": "Was sich verkauft, wer kauft und wo du wächst — Dashboards für Aktionen, nicht für Tabellen.",
+      "bullets": [
+        "Live-Dashboards für Umsatz, Erlös und Gewinn",
+        "Kohorten- und Retentionsberichte für Wiederkäufe",
+        "Traffic- und Conversion-Funnels pro Kanal",
+        "Exportierbare Berichte automatisch im Postfach"
+      ],
+      "chipValue": "+38%",
+      "chipText": "Umsatzwachstum"
+    },
+    "showcaseTitle": "Schöne Shops, erstellt mit Zenvika"
   }
 }

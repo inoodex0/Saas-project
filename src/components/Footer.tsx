@@ -112,18 +112,10 @@ export default async function Footer() {
   );
 
   return (
-    <footer className="relative isolate overflow-hidden border-t border-slate-200 bg-gradient-to-b from-white via-white to-teal-50/60 text-slate-600">
+    <footer className="relative isolate overflow-hidden border-t border-slate-200 bg-white text-slate-600">
       <span
         aria-hidden="true"
         className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-teal-400/60 to-transparent"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -top-32 start-[15%] -z-10 h-72 w-72 rounded-full bg-teal-200/45 blur-3xl"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -top-24 end-[18%] -z-10 h-64 w-64 rounded-full bg-green-200/45 blur-3xl"
       />
       <span
         aria-hidden="true"

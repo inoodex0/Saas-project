@@ -109,7 +109,7 @@ export default async function Hero() {
                 {t("secondaryCta")}
               </a>
               <Link
-                href="/pricing"
+                href="/open-store"
                 className="group relative inline-flex items-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-teal-600 via-emerald-600 to-green-600 px-8 py-4 text-[15px] font-bold text-white shadow-[0_20px_40px_-14px_rgba(5,150,105,0.9)] ring-1 ring-inset ring-white/30 transition-all hover:-translate-y-0.5 hover:shadow-[0_26px_50px_-14px_rgba(5,150,105,1)]"
               >
                 <span

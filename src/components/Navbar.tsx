@@ -4,12 +4,18 @@ import { useEffect, useRef, useState, useTransition } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname, useRouter } from '@/i18n/navigation';
 import { localeFlags, localeNames, isLocale, locales, routing } from '@/i18n/routing';
-import { Check, ChevronDown, Coins, Menu, X, ArrowRight } from 'lucide-react';
+import { BarChart3, Boxes, Check, ChevronDown, ClipboardList, Coins, Menu, X, ArrowRight, type LucideIcon } from 'lucide-react';
 import Logo from '@/components/Logo';
 
 const currencies = ['USD ($)', 'BDT (৳)', 'EUR (€)', 'SAR (ر.س)'];
 
 const solutionKeys = ['inventory', 'orders', 'analytics'] as const;
+
+const solutionIcons: Record<(typeof solutionKeys)[number], LucideIcon> = {
+  inventory: Boxes,
+  orders: ClipboardList,
+  analytics: BarChart3,
+};
 
 type OpenMenu = 'lang' | 'curr' | 'solutions' | null;
 
@@ -129,7 +135,7 @@ export default function Navbar() {
           aria-haspopup="menu"
           aria-expanded={openMenu === 'solutions'}
           onClick={() => toggle('solutions')}
-          className={`${linkClass} flex items-center gap-1`}
+          className={`${linkClass} flex items-center gap-1 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500/45`}
         >
           {t('solutions.label')}
           <ChevronDown
@@ -139,17 +145,35 @@ export default function Navbar() {
           />
         </button>
         {openMenu === 'solutions' && (
-          <div className={`${panelClass} start-0 w-48`}>
-            {solutionKeys.map((key) => (
-              <a
-                key={key}
-                href={`#${key}`}
-                onClick={closeAll}
-                className={itemClass(false)}
-              >
-                {t(`solutions.${key}`)}
-              </a>
-            ))}
+          <div className={`${panelClass} start-0 w-[19.5rem] p-2`}>
+            <p className={panelLabelClass}>{t('solutions.label')}</p>
+            {solutionKeys.map((key) => {
+              const Icon = solutionIcons[key];
+              return (
+                <Link
+                  key={key}
+                  href={`/solutions/${key}`}
+                  onClick={closeAll}
+                  className="group flex items-center gap-3 rounded-xl px-3 py-2.5 transition-colors hover:bg-teal-50/70 focus-visible:bg-teal-50/70 focus-visible:outline-none"
+                >
+                  <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-gradient-to-br from-teal-500 to-emerald-600 text-white shadow-[0_6px_14px_-6px_rgba(13,148,136,0.85)] transition-transform duration-200 group-hover:scale-105">
+                    <Icon className="h-[18px] w-[18px]" aria-hidden="true" />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-[13.5px] font-semibold text-slate-900">
+                      {t(`solutions.${key}`)}
+                    </span>
+                    <span className="mt-0.5 block truncate text-[11.5px] font-medium leading-4 text-slate-500">
+                      {t(`solutionsCaptions.${key}`)}
+                    </span>
+                  </span>
+                  <ArrowRight
+                    className="h-3.5 w-3.5 shrink-0 translate-x-0 text-teal-600 opacity-0 transition-all duration-200 group-hover:translate-x-0.5 group-hover:opacity-100 rtl:rotate-180 rtl:group-hover:-translate-x-0.5"
+                    aria-hidden="true"
+                  />
+                </Link>
+              );
+            })}
           </div>
         )}
       </div>
@@ -255,13 +279,14 @@ export default function Navbar() {
       >
         {t('contactUs')}
       </Link>
-      <button
-        type="button"
+      <Link
+        href="/open-store"
+        onClick={closeAll}
         className="group relative inline-flex shrink-0 items-center justify-center gap-1.5 whitespace-nowrap rounded-full bg-gradient-to-r from-teal-600 via-emerald-600 to-teal-600 bg-[length:200%_auto] px-5 py-2 text-[13px] font-semibold text-white shadow-[0_8px_20px_-6px_rgba(13,148,136,0.7)] ring-1 ring-inset ring-white/25 transition-all duration-300 hover:bg-[position:right_center] hover:shadow-[0_12px_28px_-6px_rgba(13,148,136,0.85)] active:scale-[0.97] cursor-pointer"
       >
         <span>{t('openStore')}</span>
         <ArrowRight className="h-3.5 w-3.5 transition-transform duration-200 group-hover:translate-x-0.5" />
-      </button>
+      </Link>
     </>
   );
 

@@ -9,7 +9,15 @@
     "featuresTitle": "Fonctionnalités — Zenvika",
     "featuresDescription": "Découvrez toutes les fonctionnalités de Zenvika : localisation et RTL, texts IA, plus de 135 devises et infrastructure edge mondiale.",
     "testimonialsTitle": "Témoignages — Zenvika",
-    "testimonialsDescription": "Découvrez pourquoi des milliers de commerçants notent Zenvika 4,9/5 — de vraies avis de vrais propriétaires de boutiques."
+    "testimonialsDescription": "Découvrez pourquoi des milliers de commerçants notent Zenvika 4,9/5 — de vraies avis de vrais propriétaires de boutiques.",
+    "openStoreTitle": "Ouvrez votre boutique gratuite | Zenvika",
+    "openStoreDescription": "Saisissez votre numéro de téléphone et notre équipe vous aidera à lancer votre boutique en ligne gratuitement, sans frais d'installation.",
+    "solutionsInventoryTitle": "Gestion d'inventaire | Zenvika",
+    "solutionsInventoryDescription": "Suivi de stock en temps réel, alertes de rupture et support multi-entrepôt avec Zenvika.",
+    "solutionsOrdersTitle": "Gestion des commandes | Zenvika",
+    "solutionsOrdersDescription": "Traitez, suivez et préparez vos commandes depuis un seul tableau, avec factures automatiques et suivi en direct.",
+    "solutionsAnalyticsTitle": "Analytique des ventes | Zenvika",
+    "solutionsAnalyticsDescription": "Décidez grâce à des tableaux de bord en direct, des rapports de cohorte et des entonnoirs de conversion."
   },
   "nav": {
     "home": "Accueil",
@@ -24,6 +32,11 @@
       "inventory": "Inventaire",
       "orders": "Commandes",
       "analytics": "Analyses"
+    },
+    "solutionsCaptions": {
+      "inventory": "Stocks en temps réel",
+      "orders": "Du paiement à la livraison",
+      "analytics": "Des tableaux qui décident"
     }
   },
   "home": {
@@ -432,5 +445,61 @@
       "secondary": "Parler aux ventes"
     },
     "eyebrow": "Ce que disent les commerçants"
+  },
+  "openStore": {
+    "title": "Commencez avec Zenvika",
+    "phoneLabel": "Numéro de téléphone",
+    "phonePlaceholder": "Votre numéro de téléphone",
+    "cta": "Commencer",
+    "invalid": "Veuillez saisir un numéro de téléphone valide",
+    "successTitle": "Vous êtes inscrit !",
+    "successNote": "Nous vous contacterons bientôt pour vous aider à ouvrir votre boutique.",
+    "agreed": "En continuant, vous acceptez nos",
+    "terms": "Conditions générales",
+    "and": "et",
+    "privacy": "Politique de confidentialité"
+  },
+  "solutions": {
+    "eyebrow": "Solutions",
+    "ctaTitle": "Lancez votre boutique gratuite aujourd’hui",
+    "ctaPrimary": "Ouvrir ma boutique gratuite",
+    "ctaSecondary": "Voir les offres",
+    "inventory": {
+      "title": "Inventaire intelligent",
+      "subtitle": "Synchronisez vos stocks en temps réel sur chaque canal — jamais de rupture, jamais de survente.",
+      "bullets": [
+        "Niveaux de stock en temps réel sur tous les canaux",
+        "Alertes de stock bas avant la rupture des meilleures ventes",
+        "Import/export en masse avec CSV et scanner de codes-barres",
+        "Support multi-entrepôt et variantes inclus"
+      ],
+      "chipValue": "12,480",
+      "chipText": "SKUs synchronisés en direct"
+    },
+    "orders": {
+      "title": "Commandes en pilote automatique",
+      "subtitle": "Du paiement à la livraison : traitez, suivez et préparez vos commandes depuis un seul tableau.",
+      "bullets": [
+        "Un tableau pour web, marketplaces et magasin",
+        "Factures, bons de livraison et étiquettes d’expédition automatiques",
+        "Suivi en direct pour vous et vos clients",
+        "Règles d’acheminement intelligentes, sans erreurs"
+      ],
+      "chipValue": "1,204",
+      "chipText": "Commandes expédiées aujourd’hui"
+    },
+    "analytics": {
+      "title": "Une analytique qui décide pour vous",
+      "subtitle": "Ce qui se vend, qui achète et où grandir — des tableaux de bord conçus pour l’action, pas pour les tableurs.",
+      "bullets": [
+        "Tableaux de bord ventes, revenus et marges en direct",
+        "Rapports de cohorte et de rétention pour la récurrence",
+        "Entonnoirs de trafic et de conversion par canal",
+        "Rapports exportables en boîte mail, en automatique"
+      ],
+      "chipValue": "+38%",
+      "chipText": "Croissance du chiffre d’affaires"
+    },
+    "showcaseTitle": "De belles boutiques créées avec Zenvika"
   }
 }

@@ -44,19 +44,19 @@ export default async function PricingPage({ params }: Params) {
       ...starter,
       price: 0,
       period: t("freePeriod"),
-      href: "#start",
+      href: `/${active}/open-store`,
     },
     {
       ...growth,
       price: 29,
       period: t("monthly"),
-      href: "#start",
+      href: `/${active}/open-store`,
     },
     {
       ...scale,
       price: 79,
       period: t("monthly"),
-      href: "#start",
+      href: `/${active}/open-store`,
       popular: true,
     },
     {

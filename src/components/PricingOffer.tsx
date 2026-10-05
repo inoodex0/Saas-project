@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Check, Gift } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 type Countdown = { days: string; hours: string; minutes: string; seconds: string };
 
@@ -82,13 +83,13 @@ export default function PricingOffer() {
               {t('offer.amount')}
             </p>
 
-            <a
-              href="#start"
+            <Link
+              href="/open-store"
               className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-600 px-7 py-3.5 text-sm font-bold text-white shadow-[0_16px_32px_-14px_rgba(5,150,105,0.9)] ring-1 ring-inset ring-white/25 transition-all hover:-translate-y-0.5 hover:shadow-[0_20px_40px_-14px_rgba(5,150,105,1)]"
             >
               <Gift className="h-4 w-4" />
               {t('offer.cta')}
-            </a>
+            </Link>
           </div>
         </div>
 

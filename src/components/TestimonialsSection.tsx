@@ -138,19 +138,6 @@ export default async function TestimonialsSection() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-[linear-gradient(rgba(15,23,42,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(15,23,42,0.05)_1px,transparent_1px)] [background-size:44px_44px] [mask-image:radial-gradient(ellipse_at_center,black_35%,transparent_80%)]"
       />
-      {/* soft colour washes */}
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -end-40 -top-40 h-[28rem] w-[28rem] rounded-full bg-orange-300/30 blur-3xl"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute -bottom-40 -start-40 h-[26rem] w-[26rem] rounded-full bg-emerald-300/25 blur-3xl"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute left-1/2 top-1/2 h-[24rem] w-[40rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-amber-200/25 blur-3xl"
-      />
 
       <div className="relative mx-auto max-w-7xl px-6 py-20 sm:py-28 lg:px-8">
         {/* ───────── Hero shipping label ───────── */}

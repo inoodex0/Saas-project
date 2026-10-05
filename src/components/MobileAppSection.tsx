@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { motion, useReducedMotion } from 'framer-motion';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 const GRID_STYLE = {
   backgroundImage:
@@ -97,12 +98,12 @@ export default function MobileAppSection() {
           <p className="text-balance text-sm leading-relaxed text-white/85 sm:text-base">{t('footer')}</p>
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <a
-              href="#start"
+            <Link
+              href="/open-store"
               className="rounded-lg bg-white px-7 py-3.5 text-sm font-bold text-teal-700 shadow-lg shadow-teal-950/40 transition-all duration-300 hover:-translate-y-0.5 hover:bg-teal-50"
             >
               {t('ctaPrimary')}
-            </a>
+            </Link>
             <a
               href="#how-it-works"
               className="rounded-lg border-2 border-white/70 px-7 py-3.5 text-sm font-bold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-white/10"

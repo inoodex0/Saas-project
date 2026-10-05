@@ -81,18 +81,6 @@ export default async function TestimonialsPage({ params }: Params) {
           aria-hidden="true"
           className="pointer-events-none absolute inset-0 -z-10 bg-[linear-gradient(rgba(120,90,40,0.08)_1px,transparent_1px),linear-gradient(90deg,rgba(120,90,40,0.08)_1px,transparent_1px)] [background-size:40px_40px] [mask-image:linear-gradient(to_bottom,black_55%,transparent)]"
         />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute -start-52 top-0 -z-10 h-[30rem] w-[30rem] animate-drift rounded-full bg-[radial-gradient(circle,rgba(251,146,60,0.35),transparent_65%)]"
-        />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute -end-56 top-16 -z-10 h-[32rem] w-[32rem] animate-drift-slow rounded-full bg-[radial-gradient(circle,rgba(52,211,153,0.3),transparent_65%)]"
-        />
-        <div
-          aria-hidden="true"
-          className="pointer-events-none absolute left-1/2 top-[-14rem] -z-10 h-[34rem] w-[60rem] -translate-x-1/2 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(253,230,138,0.55),transparent_65%)] blur-2xl"
-        />
 
         {/* oversized outlined brand stamp */}
         <div
