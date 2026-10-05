@@ -124,7 +124,7 @@ export default function PricingPlans({ plans, learnMore = "Learn more", learnMor
               </a>
               <a
                 href={learnMoreHref}
-                className={`mt-4 block text-center text-sm font-bold transition-colors ${
+                className={`mt-4 block py-1.5 text-center text-sm font-bold transition-colors ${
                   popular
                     ? "text-white/90 hover:text-white"
                     : "text-teal-700 hover:text-teal-700"

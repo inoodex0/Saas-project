@@ -1,4 +1,4 @@
-import { ArrowRight, Check } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import PricingOffer from "@/components/PricingOffer";
 import PricingPlans, { type Plan } from "@/components/PricingPlans";
 import { isLocale, routing } from "@/i18n/routing";
@@ -107,6 +107,30 @@ export default async function PricingPage({ params }: Params) {
 
       {/* Offer */}
       <PricingOffer />
+
+      {/* FAQ */}
+      <section className="mx-auto w-full max-w-3xl px-6 pb-20 pt-16 sm:pt-20">
+        <h2 className="text-center text-balance text-3xl font-black tracking-tight text-slate-900 sm:text-4xl">
+          {t("faq.title")}
+        </h2>
+        <div className="mt-8 space-y-3">
+          {faq.map((item) => (
+            <details
+              key={item.q}
+              className="group rounded-2xl border border-slate-200 bg-white transition-colors open:border-teal-300/80"
+            >
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 text-[15px] font-bold text-slate-900 [&::-webkit-details-marker]:hidden">
+                {item.q}
+                <ChevronDown
+                  className="h-4 w-4 shrink-0 text-teal-600 transition-transform duration-200 group-open:rotate-180"
+                  aria-hidden="true"
+                />
+              </summary>
+              <p className="px-5 pb-5 text-sm leading-6 text-slate-600">{item.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

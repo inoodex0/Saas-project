@@ -489,7 +489,7 @@ export default function ThemeGallery() {
                 <div className="mt-4 flex items-center justify-between gap-3 border-t border-dashed border-slate-400/50 px-1 pt-4">
                   <Link
                     href={{ pathname: '/', hash: 'features' }}
-                    className={`inline-flex cursor-pointer items-center gap-1.5 rounded-md text-[13px] font-semibold text-slate-600 underline-offset-4 transition-colors hover:text-slate-900 hover:underline ${focusRing}`}
+                    className={`inline-flex cursor-pointer items-center gap-1.5 rounded-md py-1.5 text-[13px] font-semibold text-slate-600 underline-offset-4 transition-colors hover:text-slate-900 hover:underline ${focusRing}`}
                   >
                     <Eye className="h-3.5 w-3.5" />
                     {tn('features')}
