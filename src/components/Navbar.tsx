@@ -76,6 +76,10 @@ export default function Navbar() {
   const toggle = (menu: Exclude<OpenMenu, null>) =>
     setOpenMenu((value) => (value === menu ? null : menu));
 
+  const canHover = () =>
+    typeof window !== 'undefined' &&
+    window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+
   const closeAll = () => {
     setOpenMenu(null);
     setMobileOpen(false);
@@ -129,12 +133,23 @@ export default function Navbar() {
       <Link href="/pricing" className={linkClass} onClick={closeAll}>
         {t('pricing')}
       </Link>
-      <div className="relative">
+      <div
+        className="relative"
+        onMouseEnter={() => {
+          if (canHover()) setOpenMenu('solutions');
+        }}
+        onMouseLeave={() => {
+          if (canHover()) setOpenMenu((value) => (value === 'solutions' ? null : value));
+        }}
+      >
         <button
           type="button"
           aria-haspopup="menu"
           aria-expanded={openMenu === 'solutions'}
-          onClick={() => toggle('solutions')}
+          onClick={() => {
+            if (canHover()) setOpenMenu('solutions');
+            else toggle('solutions');
+          }}
           className={`${linkClass} flex items-center gap-1 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500/45`}
         >
           {t('solutions.label')}
